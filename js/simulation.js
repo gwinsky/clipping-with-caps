@@ -25,9 +25,8 @@ CAPS.Simulation.prototype = {
 
 		var loader = new THREE.ColladaLoader();
 		loader.options.convertUpAxis = true;
-		loader.load( './models/house.dae', function ( collada ) {
-			self.initScene( collada.scene );
-		} );
+		//loader.load( './models/house.dae', function ( collada ) { self.initScene( collada.scene );} );
+		loader.load( './models/test.dae', function ( collada ) { self.initScene( collada.scene );} );
 
 		var container = document.createElement( 'div' );
 		document.body.appendChild( container );
