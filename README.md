@@ -3,7 +3,7 @@ clipping-with-caps
 
 ### Clipping a mesh and covering the openings with caps in WebGL ###
 
-[View the demo](http://daign.github.io/clipping-with-caps/)
+[View the demo](http://gwinsky.github.io/clipping-with-caps/)
 
 ![screenshot](./screenshot_01.png)
 
